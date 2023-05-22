@@ -1,4 +1,7 @@
-on: push
+on: 
+  push:
+  watch:
+    types: [started]
 jobs:
   hid-bler:
     name: build for HID BLER
